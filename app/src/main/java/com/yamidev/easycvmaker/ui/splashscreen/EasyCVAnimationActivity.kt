@@ -16,7 +16,7 @@ class EasyCVAnimationActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.Splashscreen) // Asegúrate que el archivo se llame en minúsculas
+        setContentView(R.layout.Splashscreen)
         supportActionBar?.hide()
         lottieView = findViewById(R.id.lottieAnim)
         lottieView.speed = 0.3f
@@ -27,7 +27,6 @@ class EasyCVAnimationActivity : AppCompatActivity() {
             goToMain()
         }
 
-        // Opcional: controlar la animación tocando
         lottieView.setOnClickListener {
             if (lottieView.isAnimating) {
                 lottieView.pauseAnimation()
