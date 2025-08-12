@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jdbcDataAdapter class="net.sf.jasperreports.data.jdbc.JdbcDataAdapterImpl">
+	<name>EasyCvMakerDataBase</name>
+	<classpath>C:\Users\estef\Documents\SQLITE\driver\sqlite-jdbc-3.50.2.0.jar</classpath>
+	<driver>org.sqlite.JDBC</driver>
+	<username></username>
+	<password></password>
+	<url>jdbc:sqlite:/C:/Users/estef/AndroidStudioProjects/EasyCvMaker/app/src/main/assets/EasyCvMakerDataBase</url>
+	<database></database>
+	<savePassword>true</savePassword>
+	<serverAddress></serverAddress>
+	<readOnly>true</readOnly>
+</jdbcDataAdapter>

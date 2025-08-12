@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jsonDataAdapter class="net.sf.jasperreports.data.json.JsonDataAdapterImpl">
+	<name>New Data Adapter 1</name>
+	<dataFile type="repositoryDataLocation">
+		<location>C:\Users\estef\Pictures\data.json</location>
+	</dataFile>
+	<selectExpression></selectExpression>
+	<locale>es_MX</locale>
+	<timeZone>America/Mexico_City</timeZone>
+	<useConnection>false</useConnection>
+	<language>json</language>
+</jsonDataAdapter>

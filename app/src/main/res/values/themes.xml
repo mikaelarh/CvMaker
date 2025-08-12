@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.EasyCvMaker" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/RevenClaw</item>
+        <item name="colorPrimaryVariant">@color/RevenClawLight</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/Slytherin</item>
+    </style>
+</resources>
